@@ -43,7 +43,7 @@ h2{
   
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: c;
     font-size: 44px;
 
 }
@@ -54,9 +54,10 @@ h2{
 }
 
 .main {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  
-  height: 20.33*2rem;
+  height: 51rem;
   width: 900px;
   background-color: #ff5722;
   color: #ffffff;
@@ -69,23 +70,28 @@ h2{
 }
 
 .image {
- 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #2d4059;
-  height: 20.34rem;
+  height: 25.5rem;
   color: #ffffff;
 }
 
 .extra {
+  display: flex;
   align-items: center;
+  justify-content: center;
   background-color: rgb(58, 4, 78);
   color: #ffffff;
-  height: 20.33rem;
+  height: 25.5rem;
 }
 
 .banner{
   display: flex;
+  align-items: center;
   justify-content: center;
   background-color:#2E2A36;
   color: white;
-  padding: 3rem;
+  padding: 2rem;
 }
