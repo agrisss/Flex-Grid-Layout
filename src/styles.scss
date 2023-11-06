@@ -8,82 +8,195 @@
 
 nav{
   display: flex;
+  padding: 2rem;
 
 }
 
-.header-box {
-  width: 30%;
-  background-color: #222831;
-  color: #ffffff;
-  padding: 10px;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background-color: #2d4059;
-  color: #ffffff;
-  padding: 10px;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 44px;
-}
-
-.hero {
-  background-color: #130F1C;
-  color: #ffffff;
-  padding: 23%;
-}
-
-h2{
-  
-    display: flex;
-    align-content: center;
-    font-size: 44px;
-
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 500px 1fr 1fr;
-}
-
-.main {
+ul {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 51rem;
-  width: 900px;
-  background-color: #ff5722;
-  color: #ffffff;
+  justify-content: flex-end;
+  list-style-type: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'heebo';
 }
 
-.extras {
-  flex-direction: column;
-  justify-content: flex-end;
+a, a:visited, a:hover, a:active{ 
+color: inherit;
+padding: 2rem;
+color: black;
+font-size: 20px;
+font-family: "heebo";
+font-weight: 500;
+word-wrap: break-word;
+
+}
+
+
+  .grid-main {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 950px 1fr 1fr;
+    align-items: center;
+    align-content: stretch;
+    justify-items: end;
+    padding-bottom: 10rem;
+    
+}
   
+.download-button {
+  display: flex;
+  align-content: flex-start;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+ 
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: darkred;
+}
+
+
+.text {
+  padding: 40px; /* Add padding to the text side as needed */
+}
+
+h2 {
+  font-size: 24px;
+  color: #21243D;
+}
+
+p {
+  color: #21243D;
+  font-size: 16px;
+  font-family: "Heebo";
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
 .image {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #2d4059;
-  height: 25.5rem;
-  color: #ffffff;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
 }
 
-.extra {
+img {
+  max-width: 100%; /* Make sure the image fits within its container */
+  padding-left: 35rem;
+}
+
+
+
+
+
+.menu {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(58, 4, 78);
+  flex-direction: column;
+  justify-content: space-around (2rem);
+  width: 96%;
+  background-color: #ffffff;
   color: #ffffff;
-  height: 25.5rem;
+ 
+}
+
+
+
+h1 {
+color: #21243D;
+font-size: 44px;
+font-family: 'Heebo';
+font-weight: 700;
+line-height: 60px;
+}
+
+p{
+  color: #21243D;
+  font-size: 16px;
+  font-family: "Heebo";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+h2{
+  
+  color: #21243D;
+  font-size: 26px;
+  font-family: "Heebo";
+  font-weight: 700;
+  word-wrap: break-word;  
+
+}
+
+.grid {
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 650px 1fr 1fr;
+}
+
+.text{
+  padding-left: 20rem;
+}
+
+
+section{
+  display: grid;
+  
+  background-image: url(assets/images/background.png);
+  padding: 1.5%;
+  padding-top: 2px;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  margin-right: 87.3rem;
+  color: #21243D;
+  font-size: 22px;
+  font-family: "Heebo";
+  font-weight: 400;
+  line-height: 60px;
+  word-wrap: break-word;
+}
+
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5rem 5rem;
+  background-color: #ffffff;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 5px;  
+}
+
+
+
+
+h6{
+  display: flex;
+  
+color: #21243D;
+font-size: 26px;
+font-family: "Heebo";
+font-weight: 700;
+word-wrap: break-word;
 }
 
 .banner{
